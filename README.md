@@ -103,7 +103,7 @@ IT Student
 
 ## Social 📱
 
-📧 Email: mailto:coreittech1@gmail.com  
+📧 Email: coreittech1@gmail.com  
 📹 YouTube: https://www.youtube.com/@CoreITTech1  
 📸 Instagram: https://www.instagram.com/coreit.tech  
 📘 Facebook: https://www.facebook.com/share/1AmgLDUnc9/  
