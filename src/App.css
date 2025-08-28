@@ -1,0 +1,14 @@
+/* App.css */
+.app-background {
+  background-image: url('https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
+}
+
+.dark .app-background {
+  /* Optional: Dark mode adjustment if needed */
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
+}
