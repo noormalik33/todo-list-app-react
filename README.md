@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# 📝 Todo List App with Promodore Timer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **React-based productivity app** that combines a powerful **Todo Management System** with a fully functional **Promodore Timer** (a modern reimagining of the Pomodoro Technique).  
+The app is designed to streamline task management, boost focus, and provide a **seamless user experience** across devices.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### ✅ Todo Management
+- Add, edit, delete, and filter tasks (Active / Completed / All).  
+- Support for **subtasks** to break down complex projects.  
+- Assign **due dates, priorities, and tags** for better organization.  
+- Search functionality to quickly retrieve tasks.  
+- Track **creation & completion timestamps** for progress history.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ⏱️ Promodore Timer
+- Fully implemented **count-up timer** (starts at `00:00`).  
+- **Configurable work/break sessions** (default: 25/5 minutes).  
+- Automatic cycling between **work sessions & breaks**.  
+- **Long breaks** (e.g., 15 minutes after 4 sessions).  
+- Visual cues (color changes/icons) for session transitions.  
+- Flexible tracking without rigid endpoints.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📂 Export & Import
+- **Export to JSON** → raw task data backup.  
+- **Export to PDF** → clean, printable task reports.  
+- **Import from JSON** → restore tasks easily when switching devices.  
 
-### `npm test`
+### 🎨 Theme & Interface
+- **Light/Dark theme toggle** with intuitive button colors.  
+- **Responsive design** – works on desktop, tablet, and mobile.  
+- **Gradient header + bluish footer text** for a cohesive look.  
+- Background imagery for a professional touch.  
+- Built with **Tailwind CSS** for consistent styling.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** (Frontend framework)  
+- **Tailwind CSS** (Styling & UI)  
+- **JavaScript (ES6+)**  
+- **File export libraries** (JSON & PDF support)  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Installation
 
-### `npm run eject`
+Clone the repository and install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/noormalik33/ReactUILibrary.git
+cd todo-list-app
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Run the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Build for production:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm run build
+```
 
-### Code Splitting
+## 📖 Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Manage Todos → Add, edit, delete, filter, and search tasks.
 
-### Analyzing the Bundle Size
+Run Promodore Timer → Set your session preferences (or use defaults).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Switch Themes → Toggle between light and dark modes anytime.
 
-### Making a Progressive Web App
+Export/Import Data → Backup to JSON/PDF or restore tasks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+💡 Recommendations
 
-### Advanced Configuration
+✅ Test across devices & browsers for consistent experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+✅ Add user feedback mechanisms (animations/notifications).
 
-### Deployment
+✅ Integrate analytics to track session usage & productivity trends.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+✅ Improve accessibility (keyboard navigation + screen reader support).
 
-### `npm run build` fails to minify
+✅ Expand documentation for contributors & collaborators.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🏆 Conclusion
+
+The Todo List App is a stable, feature-rich productivity tool, enhanced by the Promodore Timer that encourages structured workflows.
+With robust task management, data portability, and a modern UI, it is suitable for both personal and professional productivity needs.
+
+## 👨‍💻 Developer
+Developed with ❤️ by Noor Malik
+
+**Noor Malik**  
+IT Student  
+📍 Islamabad, Pakistan  
+📧 Email: noormalik56500@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/noormalik56500/)
+
+## Social 📱
+
+📧 Email: mailto:coreittech1@gmail.com  
+📹 YouTube: https://www.youtube.com/@CoreITTech1  
+📸 Instagram: https://www.instagram.com/coreit.tech  
+📘 Facebook: https://www.facebook.com/share/1AmgLDUnc9/  
+
+
+
+💡 If you like this project, don’t forget to star ⭐ it on GitHub!
+
+
+Happy coding! 🚀 Let’s build amazing UIs together! 💪
+
